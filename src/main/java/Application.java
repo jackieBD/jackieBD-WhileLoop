@@ -8,10 +8,15 @@ public class Application {
      * calculate this is provided in the while loop lab documentation.
      */
     public static void main(String[] args) {
-        Lab loop = new Lab();
-        System.out.println("According to the lab code, the sum of all numbers from 1 to 6, not including 6, is ");
-        int result = loop.whileExample(6);
-        System.out.println(result);
-        System.out.println("It should be 15.");
-    }
+        int end = 5;
+        int sum = 0;
+        int i = 0;
+    
+        while (i<end){
+            sum = sum+i;
+            System.out.println(sum);
+
+            i++;
+        }
+     }
 }
